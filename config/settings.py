@@ -26,11 +26,7 @@ SECRET_KEY = 'django-insecure-zz*i2oy^uwwqndrk^zba2@j8%u-wbz4a^tp-y5*eojzesl8vqm
 DEBUG = True
 
 #DEPLOYMENT:
-ALLOWED_HOSTS = [
-    "news-16hddyrlt-souhil-abdelmalek-louddads-projects.vercel.app",
-    "127.0.0.1",
-    "localhost"
-]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
