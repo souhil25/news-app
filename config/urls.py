@@ -10,5 +10,4 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')), #Views
     path('articles/', include('articles.urls')), # new
     path('', include('pages.urls')), # new
-    path('', include('example.urls')), # VERCEL
 ]
