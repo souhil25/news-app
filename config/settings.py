@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-zz*i2oy^uwwqndrk^zba2@j8%u-wbz4a^tp-y5*eojzesl8vqm
 DEBUG = True
 
 #DEPLOYMENT:
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
@@ -49,8 +49,7 @@ INSTALLED_APPS = [
     'pages', 
     'articles', # to make migrations
     
-    # Example
-    'vercel'
+
 ]
 
 MIDDLEWARE = [
